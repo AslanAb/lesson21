@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    background-color:#1B1A1D;
+    display: flex;
+}
+body > *{
+    font-family: 'Poppins', sans-serif;
+}
+.left{
+    width: 20%;
+    height: 100vh;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    padding: 42px;
+}
+.mid{
+    width: 50%;
+    height: 100vh;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+.right{
+    width: 30%;
+    height: 100vh;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+.ftop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.fimg{
+    width: 96px;
+    height: 96px;
+    background-image: url(./image/abdi.jpg);
+    background-size: cover;
+    border-radius: 400px;
+    margin-bottom: 25px;
+}
+.text60024{
+    font-weight: 600;
+    font-size: 24px;   
+}
+.white{
+    color: #FFFFFF;
+}
+.orange{
+    color: #FFA049;
+}
+.grey{
+    color: rgba(255, 255, 255, 0.4);
+}
+.text50018{
+    font-weight: 500;
+    font-size: 18px;
+}
+.fli{
+    width: 170px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.fmid1ul{
+    padding-left: 0;
+}
+.curcle{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.fli:hover .curcle{
+    color: #FFA049;
+    background-color: #FFA049;
+}
+.fli:hover .text50018{
+    color: white;
+}
+.fmid1{
+    margin-bottom: 50px;
+}
+.fbot{
+    width: 246px;
+    height: 327px;
+    background: #533A79;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text40016{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
